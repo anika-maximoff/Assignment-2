@@ -8,11 +8,16 @@ body{
     margin: 10px auto;
 
 }
+
+.header{
+    background-image: linear-gradient(to bottom,black, #313131, #000000);
+    color: white
+    
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
     color: white;
 }
 
@@ -22,6 +27,7 @@ body{
     border: 0.5px solid rgb(95, 95, 95);
     border-radius: 30px;
     padding: 0px 20px;
+    cursor: pointer;
     gap: 2rem;
     
 
@@ -38,4 +44,9 @@ body{
     height: 100%;
     border-radius: 30px;
     color: white;
+}
+
+.Banner{
+    display: flex;
+    width: 100%;
 }
