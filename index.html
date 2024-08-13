@@ -10,6 +10,7 @@
     <header class="header">
         <nav class="navbar">
             <div class="Fitness"><h2>Fitness</h2></div>
+            <div class="menu-icon">&#9776;</div>
             <div class="navOptions">
                 <p class="nav-home">Home</p>
                 <p>Service</p>
@@ -26,7 +27,7 @@
                 <p class="p11">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
                 
                 <div class="Button"> 
-                    <button class="Button1">Join Club Now</button>
+                    <button class="Button1">Join Now</button>
                     <button class="Button2">Download App</button>
                 </div>
             </div>
@@ -36,10 +37,11 @@
                 <img src="/images/images 2.png" alt="">
                 <!-- <div class="card"> -->
                     <div class="Video-Card">
-                        <p class="p11"><strong>350+</strong><br>Video Tutorial</p>
+                        <div class="play-button"></div>
+                        <div><p class="p11"><strong class="strong-p">350+</strong><br>Video Tutorial</p></div>
                     </div>
                     <div class="Workout-Card">
-                        <p class="p11"><strong>500+</strong><br>Free Workout Videos</p>
+                        <p class="p11"><strong class="strong-p">500+</strong><br>Free Workout Videos</p>
                     </div>
                 <!-- </div> -->
             </div>
@@ -85,11 +87,15 @@
             </div>
         </section>
 
+        <section class="Calculator-Description">
+            <div>
+                <h1 class="h11">BMI Calculator</h1>
+                <p class="p11">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+        </section>
 
 
         <section class="Calculator">
-            <h1 class="h11">BMI Calculator</h1>
-            <p class="p11">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             <div class="Table">
                 <h3>BMI Calculator Chart</h3>
                 <table cellpadding="10" cellspacing="0">
@@ -119,17 +125,32 @@
                     </tbody>
                 </table>
             </div>
-            <div class="BMI-Clac">
+            <div class="BMI-Calc">
                 <h3>Calculate your BMI</h3>
-                <p class="p11">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                <div class="input-items">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
+                    <p class="p11">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <div class="input-items">
+                        <input type="number" placeholder="Height/cm" name="" id="">
+                        <input type="number" placeholder="Weight/kg" name="" id="">
+                    
+                        <input type="number" placeholder="Age" name="" id="">
+                        <select name="Sex" id="Sex">
+                            <option value="sex">Sex</option>
+                        </select>
+                    
+                        <select class="Activity" name="activity" id="">
+                            <option value="activity">Select an activity factor</option>
+                        </select>
+                        
+                
+                    </div>
+                    <input class="Button1"  type="button" value="Calculate" class="Button1">
+            </div> 
+        </section>
+
+
+
+        <section class=""Extra-section>
+
 
         </section>
 
@@ -187,7 +208,7 @@
     </main>
     <footer class="footer">
         <div class="footer-item">
-            <div><h2 class="Fitness">Fitness</h2><p class="p11">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p></div>
+            <div class="Footer-description"><h2 class="Fitness">Fitness</h2><p class="p11">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p></div>
             <div>
                 <h3>Get Started</h3>
                 <p class="p11">Service</p>
