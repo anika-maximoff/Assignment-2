@@ -546,12 +546,20 @@ th{
     }
     
     
-    .Button1, .Button2{
+    .Banner-description .Button1, .Button2{
         padding: 10px 15px;
         font-size: 14px;
         max-width: 170px;
         
         
+    }
+
+    .Button1{
+        padding: 10px 15px;
+        font-size: 14px;
+        max-width: 350px;
+        
+
     }
      
     .banner-image{
@@ -649,8 +657,11 @@ th{
         font-size: 40px;
     }
 
-    .section3-container.Button1{
-        width: 350px;
+    .section3-container .Button1{
+        padding: 10px 15px;
+        font-size: 14px;
+        max-width: 350px;
+        
     }
 
     .section3-container img{
