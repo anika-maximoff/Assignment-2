@@ -17,7 +17,7 @@ body{
     box-sizing: border-box;
 }
 
-hr{
+.hr{
     color: gray;
 }
 
@@ -73,7 +73,7 @@ hr{
 .nav-home{
     background-color: rgb(252, 82, 0); 
     border-radius: 30px;
-    padding:0px 20px;
+    padding:15px 20px;
     color: white;
     height: 100%;
     width: 100%;
@@ -181,8 +181,8 @@ hr{
 .Workout-Card {
     position: absolute;
     background: rgba(74, 74, 74, 0.5);
-    top: 35%;
-    right: 20%;
+    top: 30%;
+    right: 25%;
     padding: 5px 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -346,7 +346,7 @@ th{
 /* Section team Style */
 .Team{
     text-align: center;
-    margin: 100px;
+    margin: 50px 100px;
 }
 
 .Team-container{
@@ -354,7 +354,7 @@ th{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     background-color: #242424;
-    padding: 50px;
+    padding: 30px;
     border-radius: 30px;
     /* text-align: left; */
 
@@ -391,13 +391,45 @@ th{
 }
 
 
+/* clint section style */
+.Clint-section{
+    align-items: center;
+    padding: 0px 100px;
+    padding-top: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom, #042c3f, #000000);
+}
+
+.clint-exp{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding-top: 30px;
+
+}
+.clint-pic{
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: #000;
+    filter: brightness(0.9);
+    box-shadow: 8px 8px 12px rgb(57, 82, 97);
+}
+
+
+.clint-pic:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 12px 20px rgba(113, 191, 236, 0.4); 
+}
+
 
 
 
 /* Style of footer */
 .footer{
     text-align: center;
-    margin: 100px;
+    padding: 30px 100px;
+    background: linear-gradient(to bottom, #151515, #000000);
 }
 
 .footer-item{
@@ -405,7 +437,8 @@ th{
     flex-direction: row;
     text-align: left;
     justify-content: space-evenly;
-    gap: 10rem;
+    gap: 8rem;
+    
 
 }
 
@@ -643,6 +676,35 @@ th{
         border-radius: 20px;
         
     }
+
+    .Clint-section{
+        align-items: center;
+        padding: 0px 100px;
+        padding-top: 30px;
+        text-align: center;
+        background: linear-gradient(to bottom, #042c3f, #000000);
+    }
+    
+    .clint-exp{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        max-width: 1200px;
+        margin: 30px auto;
+    
+    }
+    .clint-pic{
+        border-radius: 50%;
+        width: 200px;
+        height:200px;
+        object-fit: cover;
+        margin-bottom: 15px;
+        border: 4px solid #1c9eca;
+        filter: brightness(0.9);
+        box-shadow: 8px 8px 12px rgb(57, 82, 97);
+    }
+
+
 
     .footer{
         padding: 15px;
