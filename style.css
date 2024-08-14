@@ -460,14 +460,15 @@ th{
     .Button{
         display: grid;
         gap: 1rem;
-        width: 130%;
+       
         grid-template-columns: repeat(2,1fr);
+        width: 100%;
     }
     
     
     .Button1, .Button2{
-        padding: 10px 30px;
-        font-size: 15px;
+        padding: 10px 20px;
+        font-size: 14px;
         border-radius: 30px;
         border: none;
         cursor: pointer;
