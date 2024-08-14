@@ -540,7 +540,7 @@ th{
     
     .Button{
         display: grid;
-        gap: 5px;
+        gap: 10px;
         grid-template-columns: repeat(2,1fr);
         
     }
@@ -549,7 +549,7 @@ th{
     .Button1, .Button2{
         padding: 10px 20px;
         font-size: 14px;
-        max-width: 200px;
+        max-width: 80%;
         
         
     }
@@ -575,7 +575,7 @@ th{
     .Workout-Card {
         position: absolute;
         background: rgba(74, 74, 74, 0.5);
-        bottom: 50%;
+        bottom: 40%;
         right: 0%;    
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
@@ -631,6 +631,7 @@ th{
         padding: 10px;
         border-radius: 10px;
         max-width: 100%;
+        margin: 10px;
     }
 
     .section3-container{
@@ -648,7 +649,7 @@ th{
     }
 
     .section3-container .Button1{
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .section3-container img{
