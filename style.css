@@ -584,7 +584,7 @@ th{
     .Workout-Card {
         position: absolute;
         background: rgba(74, 74, 74, 0.5);
-        bottom: 65%;
+        bottom: 50%;
         right:-20%;    
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
@@ -660,7 +660,7 @@ th{
     .section3-container .Button1{
         padding: 10px 15px;
         font-size: 14px;
-        max-width: 350px;
+        max-width: 250px;
         
     }
 
