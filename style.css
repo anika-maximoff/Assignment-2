@@ -668,7 +668,7 @@ th{
     .Calculator{
         display: flex;
         flex-direction: column;
-        padding-left:  25px;
+        padding-left:  45px;
         gap: 0px;
         padding-top: 10px ;
         padding-bottom: 30px;
