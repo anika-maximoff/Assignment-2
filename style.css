@@ -584,7 +584,7 @@ th{
     .Workout-Card {
         position: absolute;
         background: rgba(74, 74, 74, 0.5);
-        bottom: 75%;
+        bottom: 65%;
         right:-20%;    
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
