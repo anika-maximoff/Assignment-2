@@ -626,7 +626,7 @@ th{
 
 
     .section-3{
-        padding: 0px;
+        padding: 10px;
         border-radius: 10px;
         max-width: 100%;
     }
@@ -646,12 +646,12 @@ th{
     }
 
     .section3-container .Button1{
-        max-width: 50%;
+        max-width: 90%;
     }
 
     .section3-container img{
         /* margin-top: 20px; */
-        max-width: 90%;
+        max-width: 100%;
         border-radius: 15px;
         object-fit: cover;
     }
