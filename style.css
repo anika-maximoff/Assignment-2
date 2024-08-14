@@ -133,13 +133,15 @@ main{
 }
 
 .Button{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 1rem;
+
 }
 
 
 .Button1, .Button2{
-    width: 150px;
+    width: 100%;
     padding: 7px 30px;
     font-size: 18px;
     border-radius: 30px;
