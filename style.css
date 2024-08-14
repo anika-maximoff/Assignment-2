@@ -45,7 +45,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: white;
-    width: 100%;
+    max-width: 100%;
     padding: 10px 100px;
 }
 
@@ -185,7 +185,7 @@ body{
     position: absolute;
     background: rgba(74, 74, 74, 0.5);
     top: 30%;
-    right: 5%;
+    right: 0%;
     padding: 5px 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -217,6 +217,7 @@ body{
     color: white;
     padding-inline: 100px;
     text-align: center;
+    max-width: 100%
 }
 
 .section-2 div{
@@ -259,8 +260,9 @@ body{
     background-color: #242424;
     color: white;
     border-radius: 20px;
-    width: 90%;
+    max-width: 100%;
     margin: 0 auto;
+    
 }
 
 .section3-container{
@@ -286,7 +288,7 @@ body{
 
 .Calculator-Description{
     text-align: center;
-    
+    max-width: 100%;
     padding: 0 100px;
 }
 
@@ -353,6 +355,7 @@ th{
 .Team{
     text-align: center;
     margin: 50px 100px;
+    max-width: 100%;
 }
 
 .Team-container{
@@ -400,6 +403,7 @@ th{
 /* clint section style */
 .Clint-section{
     align-items: center;
+    max-width: 100%;
     padding: 0px 100px;
     padding-top: 30px;
     text-align: center;
@@ -435,6 +439,7 @@ th{
 /* Style of footer */
 .footer{
     text-align: center;
+    max-width: 100%;
     padding: 30px 100px;
     background: linear-gradient(to bottom, #151515, #000000);
 }
