@@ -460,7 +460,7 @@ th{
     .Button{
         display: grid;
         gap: 1rem;
-        width: 100%;
+        width: 130%;
         grid-template-columns: repeat(2,1fr);
     }
     
