@@ -356,8 +356,7 @@ th{
 .input-items select{
     width: 100%;
     height: 40px;
-    background-color: #3c3c3c;
-    
+    background-color: #3c3c3c; 
     border-radius: 8px;
     border: none;
 }
@@ -367,8 +366,16 @@ th{
 
 }
 
-.button-calc{
-    margin-top: 20px;
+.Button-calc{
+    width: 350px;
+    margin-top: 10px;
+    padding: 7px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color:#E6533C;
+    color: white;
 }
 
 .BMI-Calc{
