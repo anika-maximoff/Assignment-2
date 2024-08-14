@@ -673,11 +673,11 @@ th{
     }
 
     .Button3{
-        width: 100px;
+        width: 800px;
         margin-top: 10px;
-        padding: 7px 30px;
+        padding: 7px 20px;
         font-size: 18px;
-        border-radius: 30px;
+        border-radius: 20px;
         border: none;
         cursor: pointer;
         background-color:#E6533C;
@@ -717,11 +717,11 @@ th{
     }
 
     .Button-calc{
-        width: 100px;
+        width: 800px;
         margin-top: 10px;
-        padding: 7px 30px;
+        padding: 7px 20px;
         font-size: 18px;
-        border-radius: 30px;
+        border-radius: 20px;
         border: none;
         cursor: pointer;
         background-color:#E6533C;
