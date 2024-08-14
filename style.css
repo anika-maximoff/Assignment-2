@@ -511,7 +511,7 @@ th{
         gap: 1rem;
        
         grid-template-columns: repeat(2,1fr);
-        width: 120%;
+        width: 100%;
     }
     
     
