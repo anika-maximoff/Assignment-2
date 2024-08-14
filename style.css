@@ -130,8 +130,8 @@ body{
 
 
 .Button1, .Button2{
-    padding: 10px 50px;
-    font-size: 16px;
+    padding: 7px 50px;
+    font-size: 18px;
     border-radius: 30px;
     border: none;
     cursor: pointer;
