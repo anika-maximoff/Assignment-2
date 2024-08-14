@@ -561,12 +561,12 @@ th{
 
     .banner-image img{
         width: 100%;
-        padding-left: 15px;
+        padding-left: 35px;
     }
 
     .play-button{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         background-color: #E6533C; 
         border-radius: 50%;
     }
@@ -576,7 +576,7 @@ th{
     .Workout-Card {
         position: absolute;
         background: rgba(74, 74, 74, 0.5);
-        bottom: 45%;
+        bottom: 55%;
         right: 0%;    
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
