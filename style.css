@@ -181,8 +181,8 @@ hr{
 .Workout-Card {
     position: absolute;
     background: rgba(74, 74, 74, 0.5);
-    top: 25%;
-    right: 0%;
+    top: 35%;
+    right: 20%;
     padding: 5px 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
