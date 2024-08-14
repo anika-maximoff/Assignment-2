@@ -17,6 +17,10 @@ body{
     box-sizing: border-box;
 }
 
+hr{
+    color: gray;
+}
+
 .h11{
     font-size: 60px;
 }
@@ -452,9 +456,10 @@ th{
     }
     
     .Button{
-        display: flex;
+        display: grid;
         gap: 1rem;
-        width: 100%;
+        width: 120%;
+        grid-template-columns: repeat(2,1fr);
     }
     
     
@@ -464,6 +469,7 @@ th{
         border-radius: 30px;
         border: none;
         cursor: pointer;
+        
     }
     
     .Button1{
