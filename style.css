@@ -561,7 +561,7 @@ th{
 
     .banner-image img{
         width: 100%;
-        padding-left: 35px;
+        padding-left: 45px;
     }
 
     .play-button{
@@ -577,7 +577,7 @@ th{
         position: absolute;
         background: rgba(74, 74, 74, 0.5);
         bottom: 55%;
-        right: 0%;    
+        left: 50%;    
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
         width: 110px;
@@ -673,6 +673,16 @@ th{
         padding-top: 10px ;
         padding-bottom: 30px;
     }
+
+    .clac-button .Button1{
+        width: 200px;
+    }
+
+    
+
+    /* .BMI-Calc .Button1{
+        width: 200px;
+    } */
 
     .Table{
         padding: 0;
