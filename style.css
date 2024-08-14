@@ -139,6 +139,7 @@ main{
 
 
 .Button1, .Button2{
+    width: 200px;
     padding: 7px 50px;
     font-size: 18px;
     border-radius: 30px;
