@@ -540,7 +540,7 @@ th{
     
     .Button{
         display: grid;
-        gap: 10px;
+        gap: 7px;
         grid-template-columns: repeat(2,1fr);
         
     }
@@ -549,7 +549,7 @@ th{
     .Button1, .Button2{
         padding: 10px 15px;
         font-size: 14px;
-        max-width: 150px;
+        max-width: 170px;
         
         
     }
@@ -561,6 +561,7 @@ th{
 
     .banner-image img{
         width: 100%;
+        padding-left: 15px;
     }
 
     .play-button{
@@ -631,7 +632,7 @@ th{
         padding: 10px;
         border-radius: 10px;
         max-width: 100%;
-        margin: 10px;
+        margin: 20px;
     }
 
     .section3-container{
@@ -649,7 +650,7 @@ th{
     }
 
     .section3-container .Button1{
-        max-width: 100%;
+        max-width: 200%;
     }
 
     .section3-container img{
