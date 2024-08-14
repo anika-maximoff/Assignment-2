@@ -672,16 +672,28 @@ th{
         
     }
 
+    .Button3{
+        width: 100px;
+        margin-top: 10px;
+        padding: 7px 30px;
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color:#E6533C;
+        color: white;
+    }
+
     .section3-container h1{
         font-size: 40px;
     }
 
-    .section3-container .Button1{
+    /* .section3-container .Button1{
         padding: 10px 15px;
         font-size: 14px;
         max-width: 250px;
         
-    }
+    } */
 
     .section3-container img{
         /* margin-top: 20px; */
@@ -704,9 +716,21 @@ th{
         padding-bottom: 30px;
     }
 
-    .clac-button .Button1{
-        width: 150%;
+    .Button-calc{
+        width: 100px;
+        margin-top: 10px;
+        padding: 7px 30px;
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color:#E6533C;
+        color: white;
     }
+
+    /* .clac-button .Button1{
+        width: 150%;
+    } */
 
     
 
