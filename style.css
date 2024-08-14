@@ -113,6 +113,7 @@ body{
 .italic{
     font-family: 'Miama', sans-serif;
     font-size: 100px;
+    font-weight: 400;
     color: #FF5A1E;
 }
 
@@ -495,30 +496,17 @@ th{
         gap: 1rem;
        
         grid-template-columns: repeat(2,1fr);
-        width: 100%;
+        width: 120%;
     }
     
     
     .Button1, .Button2{
-        padding: 10px 20px;
+        padding: 10px 10px;
         font-size: 14px;
-        border-radius: 30px;
-        border: none;
-        cursor: pointer;
+        
         
     }
-    
-    .Button1{
-        background-color: #FF5A1E;
-        color: white;
-    }
-    
-    .Button2{
-        background-color: transparent;
-        color: white;
-        border: 1px solid white;
-    }
-    
+     
     .banner-image{
         position: relative;
         width: 90%;
