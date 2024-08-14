@@ -53,9 +53,10 @@ body{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    border: 0.5px solid rgb(95, 95, 95);
+    border: 0.3px solid rgb(95, 95, 95);
     border-radius: 30px;
-    padding: 5px 20px;
+    padding: 5px 5px;
+    padding-right: 30px;
     gap: 3rem;
 }
 
@@ -65,13 +66,13 @@ body{
 }
 
 .Fitness{
-    color: rgb(252, 84, 0);
+    color:#E6533C;
     font-size: large;
     font-style: italic;
 }
 
 .nav-home{
-    background-color: rgb(252, 82, 0); 
+    background-color:#E6533C; 
     border-radius: 30px;
     padding:10px 35px;
     color: white;
@@ -114,7 +115,7 @@ body{
     font-family: 'Miama', sans-serif;
     font-size: 100px;
     font-weight: 400;
-    color: #FF5A1E;
+    color: #E6533C;
 }
 
 .Banner-description p{
@@ -139,7 +140,7 @@ body{
 }
 
 .Button1{
-    background-color: #FF5A1E;
+    background-color:#E6533C;
     color: white;
 }
 
@@ -175,7 +176,7 @@ body{
 .play-button{
     width: 50px;
     height: 50px;
-    background-color: #dd5719; 
+    background-color:#E6533C; 
     border-radius: 50%;
 }
 
@@ -319,7 +320,7 @@ th{
 .input-items{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 15px;
     padding-bottom: 10px;
 
 }
@@ -339,10 +340,13 @@ th{
 
 }
 
-.input-items .Button1{
+.button-calc{
     margin-top: 20px;
 }
 
+.BMI-Calc{
+    gap: 30px;
+}
 
 /* Section team Style */
 .Team{
@@ -478,11 +482,7 @@ th{
         
     }
     
-    .italic{
-        font-family: 'Miama', sans-serif;
-        font-size: 70px;
-        color: #FF5A1E;
-    }
+   
     
     .Banner-description p{
         font-size: 16px;
@@ -516,7 +516,7 @@ th{
     .play-button{
         width: 30px;
         height: 30px;
-        background-color: #dd5719; 
+        background-color: #E6533C; 
         border-radius: 50%;
     }
     
