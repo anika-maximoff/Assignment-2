@@ -524,7 +524,6 @@ th{
 
     .Banner-description h1{
         font-size: 40px;
-        padding-left: 15px;
         
     }
     
@@ -574,7 +573,7 @@ th{
     .Workout-Card {
         position: absolute;
         background: rgba(74, 74, 74, 0.5);
-        top: 95%;
+        bottom: 50%;
         right: 0%;    
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
