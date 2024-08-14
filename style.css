@@ -385,7 +385,9 @@ th{
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(0.7);
+
 }
 
 
@@ -458,13 +460,13 @@ th{
     .Button{
         display: grid;
         gap: 1rem;
-        width: 120%;
+        width: 100%;
         grid-template-columns: repeat(2,1fr);
     }
     
     
     .Button1, .Button2{
-        padding: 10px 40px;
+        padding: 10px 30px;
         font-size: 15px;
         border-radius: 30px;
         border: none;
