@@ -385,8 +385,8 @@ th{
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-    /* background-color: rgba(0, 0, 0, 0.5); */.
     filter: brightness(0.7);
+    /* background-color: rgba(0, 0, 0, 0.5); */  
 
 }
 
