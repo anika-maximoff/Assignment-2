@@ -577,7 +577,7 @@ th{
         position: absolute;
         background: rgba(74, 74, 74, 0.5);
         bottom: 75%;
-        left: 50%;    
+        right:-20%;    
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
         width: 110px;
@@ -649,8 +649,8 @@ th{
         font-size: 40px;
     }
 
-    .section3-container .Button1{
-        max-width: 210%;
+    .section3-container.Button1{
+        width: 350px;
     }
 
     .section3-container img{
