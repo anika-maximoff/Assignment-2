@@ -457,6 +457,7 @@ th{
 
 @media screen and (max-width:576px){
 
+
     .h11{
         font-size: 30px;
     }
@@ -693,7 +694,7 @@ th{
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        max-width: 1200px;
+        max-width: 100%;
         margin: 30px auto;
     
     }
