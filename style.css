@@ -319,7 +319,7 @@ th{
 .input-items{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
     padding-bottom: 10px;
 
 }
@@ -340,7 +340,7 @@ th{
 }
 
 .input-items .Button1{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
