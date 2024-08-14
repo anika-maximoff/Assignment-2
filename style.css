@@ -305,6 +305,18 @@ main{
     /* margin-right: 10rem; */
 }
 
+.Button3{
+    width: 380px;
+    margin-top: 10px;
+    padding: 7px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color:#E6533C;
+    color: white;
+}
+
 
 
 
