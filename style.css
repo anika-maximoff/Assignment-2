@@ -416,7 +416,8 @@ th{
     width: 80%;
     height: 60%;
     border-radius: 20px;
-    box-shadow: #000;
+    
+    object-fit: cover;
     filter: brightness(0.9);
     box-shadow: 8px 8px 12px rgb(57, 82, 97);
 }
@@ -467,8 +468,22 @@ th{
     
     
     .menu-icon {
+        width: 35px; 
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .menu-icon span {
+        height: 3px;  
+        width: 100%;
+        background-color: rgb(255, 255, 255);  
+        border-radius: 2px; 
         display: block;
     }
+
+
+
 
     .Banner{
         flex-wrap: wrap;
