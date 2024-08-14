@@ -538,7 +538,7 @@ th{
     
     .Button{
         display: grid;
-        gap: 10px;
+        gap: 5px;
         grid-template-columns: repeat(2,1fr);
         
     }
