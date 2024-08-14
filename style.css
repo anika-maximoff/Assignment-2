@@ -112,7 +112,7 @@ main{
 }
 
 .Banner-description{
-    padding-right: 5rem;
+    /* padding-right: 5rem; */
 }
 .Banner-description h1{
     font-size: 70px;
@@ -514,7 +514,7 @@ th{
 
     .Banner{
         flex-wrap: wrap;
-        padding: 15px;
+        /* padding: 15px; */
         
     }
 
