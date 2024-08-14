@@ -139,8 +139,8 @@ main{
 
 
 .Button1, .Button2{
-    width: 200px;
-    padding: 7px 50px;
+    width: 150px;
+    padding: 7px 30px;
     font-size: 18px;
     border-radius: 30px;
     border: none;
