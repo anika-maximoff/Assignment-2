@@ -517,12 +517,14 @@ th{
     .Banner{
         flex-wrap: wrap;
         /* padding: 15px; */
+        padding: 0 15px;
         
     }
 
 
     .Banner-description h1{
         font-size: 40px;
+        padding-left: 15px;
         
     }
     
@@ -537,17 +539,16 @@ th{
     
     .Button{
         display: grid;
-        gap: .7rem;
-       
+        gap: 10px;
         grid-template-columns: repeat(2,1fr);
         
     }
     
     
     .Button1, .Button2{
-        padding: 10px 10px;
+        padding: 10px 20px;
         font-size: 14px;
-        max-width: 50%;
+        max-width: 200px;
         
         
     }
